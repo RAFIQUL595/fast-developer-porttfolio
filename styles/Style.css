@@ -1,0 +1,124 @@
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* New Color Style */
+.new-color {
+  color: rgb(71, 71, 71);
+}
+
+/* Span Style */
+.span-color {
+  color: rgb(253, 110, 10);
+}
+
+/* Header Style */
+.header {
+  background-image: url(/images/developer.png), url(/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-color: rgb(255, 248, 243);
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 230px 0 226px;
+}
+.header-h2 {
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.header-nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav ul li {
+  list-style: none;
+  margin-right: 51px;
+}
+
+.header-nav li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Button Style */
+.btn {
+  border-radius: 5px;
+  background: rgb(253, 110, 10);
+  border: none;
+  font-size: 20px;
+  padding: 18px 35px;
+  color: white;
+}
+
+/* Banner Style */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 38px 0 230px;
+}
+.banner-head {
+}
+.banner-h3 {
+  color: rgb(71, 71, 71);
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.banner-h2 {
+  color: rgb(24, 24, 24);
+  font-size: 85px;
+  font-weight: 700;
+}
+.banner-p {
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.banner-profile-pic {
+  width: 584px;
+}
+
+/* Section Style */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.section {
+  background: rgb(255, 248, 243);
+  text-align: center;
+  margin-top: 130px;
+  border-radius: 10px;
+}
+.section-div {
+  padding: 131px 157px;
+}
+.section-h2 {
+  color: rgb(24, 24, 24);
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-p {
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  font-weight: 400;
+}
+.about-items {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+.item-title {
+  color: rgb(117, 117, 117);
+}
+.item {
+  font-weight: 700;
+}
