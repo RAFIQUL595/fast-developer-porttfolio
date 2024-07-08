@@ -197,3 +197,7 @@ main {
 .resume hr{
   margin: 30px 5px;
 }
+.resume .text-center{
+  margin-top: 50px;
+  text-align: center;
+}
