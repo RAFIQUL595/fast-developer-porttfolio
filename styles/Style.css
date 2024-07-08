@@ -162,3 +162,38 @@ main {
   font-size: 16px;
   font-weight: 400;
 }
+
+/* Header End Style */
+.resume-title {
+  color: rgb(24, 24, 24);
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+.resume-container {
+  display: flex;
+  gap: 24px;
+}
+.resume-colume-title {
+  color: rgb(71, 71, 71);
+  font-size: 30px;
+  font-weight: 700;
+}
+.exprience-title {
+  color: rgb(71, 71, 71);
+  font-size: 25px;
+  font-weight: 700;
+}
+.expeience-sub-title {
+  color: rgb(117, 117, 117);
+  font-size: 20px;
+  font-weight: 600;
+}
+.expeience-descipson {
+  color: rgb(117, 117, 117);
+  font-size: 16px;
+  font-weight: 400;
+}
+.resume hr{
+  margin: 30px 5px;
+}
